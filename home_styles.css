@@ -1,0 +1,410 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #f4f4f4;
+	color: #333;
+	line-height: 1.6;
+}
+
+/* Header */
+header {
+	background-color: #222;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-container .location, .header-container .contact-info,
+	.header-container .social-icons {
+	display: flex;
+	gap: 15px;
+}
+
+.social-icons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Navigation */
+nav {
+	background-color: #333;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+nav ul li {
+	margin: 0 15px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+	background: url('/images/supermarket-5202138_1920.jpg') no-repeat center
+		center/cover;
+	color: #fff;
+	text-align: center;
+	padding: 100px 20px;
+}
+
+.hero-content h1 {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+
+.hero-content p {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+.hero-content button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+.hero-content button:hover {
+	background-color: #0056b3;
+}
+
+/* Info Section-2 */
+h2.section-title {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+p.section-description {
+	text-align: center;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	color: #666;
+}
+
+button.read-more-btn {
+	display: block;
+	margin: 1rem auto;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #007BFF;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button.read-more-btn:hover {
+	background-color: #0056b3;
+}
+
+/* Services Section */
+.services-section {
+	padding: 2rem;
+	background-color: #f9f9f9;
+}
+
+.services-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.service-box {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 1.5rem;
+	width: 300px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+}
+
+.service-box:hover {
+	transform: translateY(-5px);
+}
+
+.service-box.highlighted {
+	background-color: #007BFF;
+	color: #fff;
+}
+
+.service-icon {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.service-title {
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+}
+
+.service-description {
+	font-size: 1rem;
+	color: #666;
+}
+
+/* About Section */
+.about-section {
+	padding: 2rem;
+	background-color: #fff;
+}
+
+.about-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.about-text {
+	flex: 1;
+	max-width: 500px;
+}
+
+.about-text p {
+	font-size: 1rem;
+	color: #666;
+	margin-bottom: 1rem;
+}
+
+.about-image {
+	flex: 1;
+	max-width: 500px;
+}
+
+.about-image img {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+h2.section-title {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+p.section-description {
+	text-align: center;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	color: #666;
+}
+
+/* Team Section Styles */
+.team-section {
+	padding: 2rem;
+	background-color: #f9f9f9;
+}
+
+.team-container {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+
+.team-member {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 1rem;
+	width: 300px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+}
+
+.team-member:hover {
+	transform: translateY(-5px);
+}
+
+.team-photo {
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-info {
+	text-align: center;
+}
+
+.team-name {
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+	color: #333;
+}
+
+.team-role {
+	font-size: 1rem;
+	color: #666;
+}
+
+/* Get In Touch Section Styles */
+header, footer {
+	background: rgb(12, 12, 12);
+	color: white;
+}
+
+header .top-bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin-left: 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.hero img {
+	width: 50%;
+}
+
+.contact-form {
+	width: 40%;
+}
+
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form input, .contact-form select, .contact-form button {
+	margin: 10px 0;
+	padding: 10px;
+}
+
+/* Footer Section Styles */
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.footer-column {
+	flex: 1 1 200px;
+	margin: 10px;
+}
+
+.footer-column h3 {
+	margin-bottom: 15px;
+	font-size: 18px;
+	border-bottom: 2px solid #555;
+	padding-bottom: 5px;
+}
+
+.footer-column ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-column ul li {
+	margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+	color: #ccc;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+	color: #fff;
+}
+
+.footer-social {
+	display: flex;
+	gap: 10px;
+}
+
+.footer-social a {
+	color: #ccc;
+	font-size: 20px;
+	transition: color 0.3s;
+}
+
+.footer-social a:hover {
+	color: #fff;
+}
+
+.footer-bottom {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+@media ( max-width : 768px) {
+	.footer-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-column {
+		text-align: center;
+	}
+}
